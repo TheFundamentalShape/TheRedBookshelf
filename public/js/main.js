@@ -12830,8 +12830,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a().$mount('#site');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/lbattaglioli/Sites/TheRedBookshelf/src/main.js */"./src/main.js");
-module.exports = __webpack_require__(/*! /Users/lbattaglioli/Sites/TheRedBookshelf/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/lbattaglioli/Sites/TheRedbookshelf/src/main.js */"./src/main.js");
+module.exports = __webpack_require__(/*! /Users/lbattaglioli/Sites/TheRedbookshelf/src/app.scss */"./src/app.scss");
 
 
 /***/ })
