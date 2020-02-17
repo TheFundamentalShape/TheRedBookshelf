@@ -1,14 +1,20 @@
+const { colors } = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
     extend: {
       colors: {
         'tan': '#EEE2D2',
-        'red': '#D0021B',
+        'primary': '#D0021B',
         'dark-red': '#8D0011',
-        'gray': '#4A4A4A'
+        'gray': {
+          ...colors.gray,
+          500:'#4A4A4A'
+        }
       }
     },
   },
-  variants: {},
+  variants: {
+  },
   plugins: [],
 }

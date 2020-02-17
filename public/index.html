@@ -14,12 +14,12 @@
 
 <div id="site">
 
-  <div class="px-5 bg-white shadow py-5 border-t-8 border-red flex justify-between">
+  <div id="navbar" class="sticky top-0 px-8 bg-white shadow py-5 border-t-8 border-primary flex justify-between">
     <div class="my-auto">
-      <p class="text-gray fat-font text-2xl">The <span class="text-red">RED</span> Bookshelf</p>
+      <p class="text-gray-500 fat-font text-2xl">The <span class="text-primary">RED</span> Bookshelf</p>
     </div>
     <div class="my-auto">
-      <div class="p-1 bg-gray-500 rounded">
+      <div class="p-1 border-primary border-2 text-primary fill-current rounded hover:bg-primary hover:text-white">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6">
           <path fill-rule="evenodd" d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"/>
         </svg>
@@ -27,23 +27,54 @@
     </div>
   </div>
 
-  <div class="px-5 md:px-24 w-full h-screen object-fill bg-no-repeat bg-top bg-center"style="background-image: url('/photos/kid.png')">
+  <div id="hero" class="px-8 md:px-24 w-full h-screen bg-cover bg-no-repeat bg-top bg-center"style="background-image: url('/photos/kid.png')">
     <div class="pt-20">
-      <h1 class="text-white fat-font text-5xl">The <span class="text-red">RED</span><br>Bookshelf</h1>
+      <h1 class="text-white fat-font text-6xl leading-tight">The <span class="text-primary">RED</span><br>Bookshelf</h1>
 
-      <div class="text-white skippy-font text-4xl">
-        <p>This is my book.</p>
-        <p>These are my books.</p>
-        <p>I am a reader.</p>
+      <div class="text-white skippy-font text-5xl max-w-sm">
+        <p class="leading-tight">This is my book.<br>These are my books.<br>I am a reader.</p>
       </div>
 
       <div class="mt-10">
-        <a class="bg-red text-4xl fat-font px-4 py-4 text-white rounded hover:bg-dark-red hover:shadow-2xl">
+        <a class="bg-primary text-4xl fat-font px-8 border-dark-red border-b-4 hover:border-transparent py-4 text-white rounded hover:bg-dark-red shadow-lg hover:shadow-none">
           Find a Shelf
         </a>
       </div>
 
     </div>
+  </div>
+
+  <div class="ml-8 flex justify-center">
+    <div class="lg:pl-24 static my-20 mx-auto text-gray-500">
+
+      <h1 class="max-w-md fat-font text-5xl">Our mission is to inspire kids to read. Every day.</h1>
+
+      <div class="flex max-w-3xl lg:max-w-full md:max-w-none">
+        <p class="my-4 skippy-font text-3xl md:text-4xl">
+          The RED Bookshelf is a non-profit community literacy program. 
+          We work with community partners to provide free children’s 
+          books on bright red bookshelves throughout Albany. Our 
+          goal is to ensure that all children, regardless of income, 
+          have access to books.
+        </p>
+  
+        <img class="static md:h-full h-64 bottom-0 right-0" src="/photos/books.png" alt="Stack of Books">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bg-white border-primary border-b-8 px-8 py-5">
+
+    <div class="max-w-sm">
+      <h1 class="text-gray-500 fat-font text-2xl">The <span class="text-primary">RED</span> Bookshelf</h1>
+      <p class="text-lg text-gray-500 skippy-font">We’re located at<br>200 Green St in Albany, NY</p>
+    </div>
+
+    <div class="max-w-md mt-10">
+      <p class="text-xl text-gray-500 skippy-font">Donations to The RED Bookshelf, an IRC SEC 501 (c) 3 approved organization, are tax deductible to the fullest extent of the law.</p>
+    </div>
+
   </div>
 
 </div>

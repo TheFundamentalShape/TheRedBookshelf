@@ -20,6 +20,8 @@ mix
         postCss: [ tailwindcss('tailwind.config.js') ],
     });
 
+mix.browserSync('theredbookshelf.test');
+
 // Full API
 
 // mix.js(src, output);
